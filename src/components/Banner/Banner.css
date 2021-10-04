@@ -1,0 +1,12 @@
+.banner{
+    background-image: url('../../image/adriana-aceves-2-NlAJnSAZM-unsplash.jpg');
+    width: 100%;
+    height: 750px;
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.text-color{
+    color: tomato;
+}

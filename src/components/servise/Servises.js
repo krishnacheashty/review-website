@@ -1,17 +1,9 @@
 import React from 'react';
-import { Row } from 'react-bootstrap';
+import { Card, Row } from 'react-bootstrap';
 import UseCourse from '../../utilities/Utilities';
-import Utilities from '../../utilities/Utilities';
-import About from '../About/About';
-import Banner from '../Banner/Banner';
 import Cart from '../Cart/Cart';
 
-import Footer from '../Footer/Footer';
-import ManuBar from '../manuBar/ManuBar';
-import './Home.css'
-
-const Home = () => {
-    
+const Servises = () => {
     const[course,setCourse]=UseCourse();
     
     return (
@@ -19,7 +11,7 @@ const Home = () => {
            
                 <Row xs={1} md={2} className="g-4">
                     {
-                        course.slice(0,4).map(item=><Cart 
+                        course.slice(0,9).map(item=><Cart 
                             cart={item} 
                             key={item._id}>
                             </Cart>)
@@ -33,4 +25,4 @@ const Home = () => {
     );
 };
 
-export default Home;
+export default Servises;
