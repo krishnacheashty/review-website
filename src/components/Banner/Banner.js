@@ -14,7 +14,7 @@ const Banner = () => {
                             <h1 className="text-color fs-3">
                             The #1 Dance Studio in bangladesh. <br />Start your career with us.
                             </h1>
-                            <p className='text-dark text-center mt-3'>
+                            <p className='text-white text-center mt-3'>
                             Since 2009, The Living Dolls Dance Factory has been the best Dance Studio in bangladesh. From its Award Winning Dance Classes, state of the art dance school & experienced dance instructors, it's no secret why our Dance Studio has been voted #1 by parents & students.
                             </p>
                             <Button variant="info">Join Us</Button>{' '}
