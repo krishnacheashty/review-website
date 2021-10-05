@@ -2,10 +2,13 @@
 import React from 'react';
 import { Button, Card } from 'react-bootstrap';
 import logo from '../../image/dance-school.jpg'
+import Footer from '../Footer/Footer';
+import ManuBar from '../manuBar/ManuBar';
 
 const Blog = () => {
     return (
         <div className='m-5'>
+            <ManuBar/>
              <h1 className='m-5'>BLOG SECTION</h1>
              <Card className='text-center' style={{ width: '50rem',margin:"20px" }}>
                 <Card.Img variant="top" src={logo} />
@@ -25,6 +28,7 @@ const Blog = () => {
                     <Button variant="primary">Details</Button>
                 </Card.Body>
                 </Card>
+            <Footer/>
                 
         </div>
     );

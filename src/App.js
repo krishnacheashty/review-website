@@ -14,7 +14,7 @@ import Servises from './components/servise/Servises';
 function App() {
   return (
     <Router>
-      <Banner></Banner>
+      
       <Switch>
         <Route exact path='/'>
           <Home></Home>
@@ -36,7 +36,7 @@ function App() {
         </Route>
 
       </Switch>
-      <Footer></Footer>
+      
     </Router>
   );
 }

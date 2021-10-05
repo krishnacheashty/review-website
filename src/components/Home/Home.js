@@ -15,7 +15,8 @@ const Home = () => {
     const[course,setCourse]=UseCourse();
     
     return (
-        <div>
+        <div className="container">
+            <Banner/>
            
                 <Row xs={1} md={2} className="g-4">
                     {
@@ -26,7 +27,7 @@ const Home = () => {
                     }
                 
                 </Row>
-           
+            <Footer></Footer>
            
         </div>
         
