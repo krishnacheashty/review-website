@@ -8,6 +8,7 @@ import Blog from './components/Blog/Blog';
 import Footer from './components/Footer/Footer';
 import Home from './components/Home/Home';
 import ManuBar from './components/manuBar/ManuBar';
+import NotFound from './components/NotFound/NotFound';
 import Servises from './components/servise/Servises';
 
 function App() {
@@ -29,6 +30,9 @@ function App() {
         </Route>
         <Route exact path ="/services">
           <Servises></Servises>
+        </Route>
+        <Route exact path='*'>
+          <NotFound></NotFound>
         </Route>
 
       </Switch>
